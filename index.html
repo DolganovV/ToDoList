@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDO</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navigate">
+                <ul class="ul-nav">
+                    <li class="li-nav">
+                        <img src="" alt="">
+                    </li>
+                    <li class="li-nav">
+                        <div id="time"></div>
+
+                    </li>
+                    <li class="li-nav">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="container">
+                <h1>ToDo List</h1>
+                <div class="form-control">
+                    <input type="text" id="taskInput" placeholder="Добавьте задачу...">
+                    <button onclick="addTask()">Добавить</button>
+                </div>
+                <ul id="taskList"></ul>
+                <div class="stats">
+                    <span id="tasksLeft">0</span> задач осталось
+                </div>
+                <button class="clear-completed" onclick="clearCompleted()">Очистить завершенные</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="time.js"></script>
+</body>
+
+</html>

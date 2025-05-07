@@ -1,0 +1,105 @@
+body {
+    background: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#time{
+    font-size: 48px;
+    font-weight: 800;
+    color: #4cae4c;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #5cb85c;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.checkbox-container {
+    margin-right: 10px;
+}
+
+.todo-text {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.delete-btn {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+.stats {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.clear-comleted {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
